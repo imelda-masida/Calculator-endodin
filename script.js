@@ -1,7 +1,3 @@
-let nb1 = 7;
-let nb2 = 2;
-let operateur = `-+/*`;
-
 const add = function(nb1, nb2){
     return nb1 + nb2;
 };
@@ -27,3 +23,15 @@ const division = function(nb1, nb2){
     return nb1 / nb2;
 };
 console.log(division);
+
+let nb1 = 7;
+let nb2 = 2;
+let operateur = `-+/*`;
+
+const operation = function(operateur, nb1, nb2){
+    
+    let operation = soustra;
+    console.log("la somme de"+ nb1 +"et"+ nb2 +"est"+operation);
+    
+};
+operation(`-`, 5, 7);
