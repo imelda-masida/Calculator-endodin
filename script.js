@@ -1,3 +1,7 @@
+let nb1 = 7;
+let nb2 = 2;
+let operateur = `-+/*`;
+
 const add = function(nb1, nb2){
     return nb1 + nb2;
 };
