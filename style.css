@@ -4,3 +4,12 @@ body{
     min-width: 480px;
     margin: 0 auto;
 }
+
+.delete{
+    background-color: rgb(75, 212, 86);
+    border: 1px solid rgb(75, 212, 86);
+}
+.delete:hover{
+    background-color: rgb(36, 179, 48);
+    opacity: 0.8;
+}
