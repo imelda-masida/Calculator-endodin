@@ -36,8 +36,9 @@ const operation = function(operateur, nb1, nb2){
 };
 operation(`-`, 5, 7);
 
-const ajouraffiche = function(valeur) {
-   if 
-     
+let nbActuel = 0;
 
-};
+function metterAJourNbActuel(){
+    const ecran = document.getElementById("ecran");
+    ecran.textContent = nbActuel;
+}
