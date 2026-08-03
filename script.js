@@ -36,9 +36,23 @@ const operation = function(operateur, nb1, nb2){
 };
 operation(`-`, 5, 7);
 
-let nbActuel = 0;
+let nbActuel = "0";
 
 function metterAJourNbActuel(){
     const ecran = document.getElementById("ecran");
     ecran.textContent = nbActuel;
+}
+
+function ajouterAuNbActuel(nb){
+    if (nbActuel === "0") {
+        nbActuel = nb;
+    } else {
+        nbActuel += nb;
+    }
+    
+}
+
+function cliquerBouton(nb){
+    ajouterAuNbActuel(nb);
+    metterAJourNbActuel();
 }
