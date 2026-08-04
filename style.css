@@ -15,3 +15,11 @@
         place-items: center;
         display: grid;
     }
+
+    .calculatrice{
+        background: #fff;
+        border-radius: 10px;
+        padding: 40px 30px;
+
+        
+    }
