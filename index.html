@@ -15,28 +15,39 @@
      
     <h3>Calculatrice-Odin</h3>
 
-    <input type="" class="ecran">
-    
-    <input type="button" value="1" class="number">
-    <input type="button" value="2" class="number">
-    <input type="button" value="3" class="number">
-    <input type="button" value="4" class="number">
-    <input type="button" value="5" class="number">
-    <input type="button" value="6" class="number">
-    <input type="button" value="7" class="number">
-    <input type="button" value="8" class="number">
-    <input type="button" value="9" class="number">
-    <input type="button" value="0" class="number">
+    <div class="calculatrice">
+        <p class="infos"></p>
+        <form action="" name="form">
+            <div class="resultat">
+                <input type="text" id="fenetre" name="fenetre">
+            </div>
+           
+            <div class="boutons">
+                <input type="button" value="1" onclick="addToFenetre('1')">
+                <input type="button" value="2" onclick="addToFenetre('2')">
+                <input type="button" value="3" onclick="addToFenetre('3')">
+                <input type="button" value="+" onclick="addToFenetre('+')">
+                <br>
+                <input type="button" value="4" onclick="addToFenetre('4')">
+                <input type="button" value="5" onclick="addToFenetre('5')">
+                <input type="button" value="6" onclick="addToFenetre('6')">
+                <input type="button" value="-" onclick="addToFenetre('-')">
+                <br>
+                <input type="button" value="7" onclick="addToFenetre('7')">
+                <input type="button" value="8" onclick="addToFenetre('8')">
+                <input type="button" value="9" onclick="addToFenetre('9')">
+                <input type="button" value="*" onclick="addToFenetre('*')">
+                <br>
+                <input type="button" value="0" onclick="addToFenetre('0')">
+                <input type="button" value="." onclick="addToFenetre('.')">
+                <input type="button" value="effacer" onclick="clearFenetre()">
+                <input type="button" value="/" onclick="addToFenetre('/')">
+                <br>
+                <input type="button" value="=" onclick="calculer()">
+            </div>
 
-    <input type="button" value="=" class="egale">
-
-    <input type="button" value="+" class="operateur">
-    <input type="button" value="-" class="operateur">
-    <input type="button" value="*" class="operateur">
-    <input type="button" value="/" class="operateur">
-
-    <input type="button" value="Delete" class="delete">
-
+        </form>
+    </div>
     
      <script src="script.js"></script>
 </body>
