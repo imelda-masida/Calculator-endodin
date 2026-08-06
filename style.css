@@ -32,3 +32,8 @@
         text-align: right;
         font-size: 2rem;
     }
+  
+    .boutons{
+        padding: 30px;
+        text-align: center;
+    }
