@@ -5,7 +5,7 @@ const info = document.getElementById("infos");
 const allbouttons = document.querySelectorAll("input[type=button]");
 
 
-function val(resultat){
+function addfenetre(resultat){
     form.fenetre.value = form.fenetre.value + resultat;
 }
 
