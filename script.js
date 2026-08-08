@@ -1,3 +1,15 @@
+const info = document.getElementById("infos");
+
+
+
+const allbouttons = document.querySelectorAll("input[type=button]");
+
+
+function val(resultat){
+    form.fenetre.value = form.fenetre.value + resultat;
+}
+
+
 const add = function(nb1, nb2){
     return nb1 + nb2;
 };

@@ -23,27 +23,36 @@
             </div>
            
             <div class="boutons">
-                <input type="button" value="1"  onclick="addToFenetre('1')">
-                <input type="button" value="2"  onclick="addToFenetre('2')">
-                <input type="button" value="3"  onclick="addToFenetre('3')">
-                <input type="button" value="+" onclick="addToFenetre('+')">
-                <br>
-                <input type="button" value="4" onclick="addToFenetre('4')">
-                <input type="button" value="5" onclick="addToFenetre('5')">
-                <input type="button" value="6" onclick="addToFenetre('6')">
-                <input type="button" value="-" onclick="addToFenetre('-')">
-                <br>
-                <input type="button" value="7" onclick="addToFenetre('7')">
-                <input type="button" value="8" onclick="addToFenetre('8')">
-                <input type="button" value="9" onclick="addToFenetre('9')">
-                <input type="button" value="*" onclick="addToFenetre('*')">
-                <br>
-                <input type="button" value="0" onclick="addToFenetre('0')">
-                <input type="button" value="." onclick="addToFenetre('.')">
-                <input type="button" value="effacer"  onclick="clearFenetre()">
-                <input type="button" value="/" onclick="addToFenetre('/')">
-                <br>
-                <input type="button" value="=" class="boutton" onclick="calculer()">
+                <div class="rang">
+                   <input type="button" value="1" name="b1"  onclick="val(b1.value)">
+                <input type="button" value="2" name="b2"  onclick="val(b2.value)">
+                <input type="button" value="3" name="b3"  onclick="val(b3.value)">
+                <input type="button" value="+" name="add" onclick="val(add.value)"> 
+                </div>
+
+                <div class="rang">
+                    <input type="button" value="4" name="b4" onclick="val(b4.value)">
+                <input type="button" value="5" name="b5" onclick="val(b5.value)">
+                <input type="button" value="6" name="b6" onclick="val(b6.value)">
+                <input type="button" value="-" name="sub" onclick="val(sub.value)">
+                </div>
+
+                <div class="rang">
+                    <input type="button" value="7" name="b7" onclick="val(b7.value)">
+                <input type="button" value="8" name="b8" onclick="val(b8.value)">
+                <input type="button" value="9" name="b9" onclick="val(b9.value)">
+                <input type="button" value="*" name="mul" onclick="val(mul.value)">
+                </div>
+
+                <div class="rang">
+                <input type="button" value="0" name="b0" onclick="val(b0.value)">
+                <input type="button" value="." name="dot" onclick="val(dot.value)">
+                
+                <input type="button" value="/" name="div" onclick="val(div.value)">
+                <input type="button" value="=" name="egale" onclick="calculer()">
+                </div>
+                
+                <input type="button" class="clear" value="effacer" name="clear"  onclick="clear()">
             </div>
 
         </form>
