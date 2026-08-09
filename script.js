@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 const info = document.getElementById("infos");
 
 
