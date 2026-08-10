@@ -1,3 +1,9 @@
+let var1 = "";
+let var2 = "";
+let operationsign = "";
+let resultat = "";
+
+
 const info = document.getElementById("infos");
 
 
