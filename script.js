@@ -1,7 +1,9 @@
 let var1 = "";
 let var2 = "";
 let operationsign = "";
-let resultat = "";
+let resultat = 0;
+
+
 
 
 const info = document.getElementById("infos");
@@ -57,8 +59,8 @@ operation(`-`, 5, 7);
 let nbActuel = "0";
 
 function metterAJourNbActuel(){
-    const ecran = document.getElementById("ecran");
-    ecran.textContent = nbActuel;
+    const ecran = document.getElementById("fenetre");
+    ecran.value = nbActuel;
 }
 
 function ajouterAuNbActuel(nb){
@@ -74,3 +76,5 @@ function cliquerBouton(nb){
     ajouterAuNbActuel(nb);
     metterAJourNbActuel();
 }
+
+
