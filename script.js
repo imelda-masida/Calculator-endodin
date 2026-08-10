@@ -48,13 +48,18 @@ let nb1 = 7;
 let nb2 = 2;
 let operateur = `-+/*`;
 
-const operation = function(operateur, nb1, nb2){
-    
-    let operation = soustra;
-    console.log("la somme de"+ nb1 +"et"+ nb2 +"est"+operation);
-    
-};
-operation(`-`, 5, 7);
+function operation(op, nb1, nb2) {
+    nb1 = parseFloat(nb1);
+    nb2 = parseFloat(nb2);
+
+    switch (op) {
+        case "+": return add(nb1, nb2);
+        case "-": return soustra(nb1, nb2);
+        case "*": return multi(nb1, nb2);
+        case "/": return division(nb1, nb2);
+    }
+}
+
 
 let nbActuel = "0";
 
