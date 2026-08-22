@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculatrice-Odin</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-
-    <title>Calculatrice-Odin</title>
-
+    
+    <script src="script.js" defer></script>
 </head>
 <body>
      
@@ -17,44 +15,40 @@
 
     <div class="calculatrice">
         <p class="infos"></p>
-        <form action="" name="form">
+        <form action="" name="form" onsubmit="return false;">
             <div class="resultat">
-                <input type="text" id="fenetre" name="fenetre">
+                <input type="text" id="fenetre" name="fenetre" readonly>
             </div>
            
             <div class="boutons">
-                
-                <input type="button" value="1" name="b1"  class="btn-chiffre">
-                <input type="button" value="2" name="b2"  class="btn-chiffre">
-                <input type="button" value="3" name="b3"  class="btn-chiffre">
-                <input type="button" value="+" name="add" class="btn-op">
+                <input type="button" value="1" name="b1" class="btn-chiffre">
+                <input type="button" value="2" name="b2" class="btn-chiffre">
+                <input type="button" value="3" name="b3" class="btn-chiffre">
+                <input type="button" value="+" name="add" class="btn-op"> 
                 <br>
 
                 <input type="button" value="4" name="b4" class="btn-chiffre">
                 <input type="button" value="5" name="b5" class="btn-chiffre">
                 <input type="button" value="6" name="b6" class="btn-chiffre">
-                <input type="button" value="-" name="sub" class="btn-operation">
+                <input type="button" value="-" name="sub" class="btn-op">
                 <br>
                 
                 <input type="button" value="7" name="b7" class="btn-chiffre">
                 <input type="button" value="8" name="b8" class="btn-chiffre">
                 <input type="button" value="9" name="b9" class="btn-chiffre">
-                <input type="button" value="*" name="mul" class="btn-operation">
+                <input type="button" value="*" name="mul" class="btn-op">
                 <br>
                 
                 <input type="button" value="0" name="b0" class="btn-chiffre">
                 <input type="button" value="." name="dot" class="btn-chiffre">
-                
                 <input type="button" value="/" name="div" class="btn-op">
-                <input type="button" value="=" name="egale" class="btn-egale">
+                <input type="button" value="=" name="egale" id="btn-egale">
                 <br>
                 
                 <input type="button" class="clear" value="effacer" id="btn-clear">
             </div>
-
         </form>
     </div>
     
-     
 </body>
 </html>
